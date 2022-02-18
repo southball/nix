@@ -24,6 +24,9 @@
 
   programs.bash = {
     enable = true;
+    initExtra = ''
+      . /home/southball/.nix-profile/etc/profile.d/nix.sh
+    '';
   };
 
   programs.starship = {
