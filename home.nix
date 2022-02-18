@@ -20,6 +20,7 @@
     ansible
     nodePackages.http-server
     bat
+    gnumake
   ];
 
   programs.bash = {
